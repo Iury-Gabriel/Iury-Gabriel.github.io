@@ -24,6 +24,7 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
+
 .menu-openner {
     margin-right: 15px;
     font-size: 26px;
@@ -328,9 +329,15 @@ h1 {
     margin-top:20px;
     border:2px solid #63f77c;
     transition: all ease .2s;
+    list-style: none;
 }
 .cart--finalizar:hover {
     background-color:#35af4a;
+}
+
+.cart--finalizar a {
+    text-decoration: none;
+    color: white;
 }
 
 @media (max-width:1000px) {
