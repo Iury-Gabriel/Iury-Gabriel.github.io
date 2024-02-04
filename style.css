@@ -1,6 +1,10 @@
 * {
     box-sizing: border-box;
 }
+
+.test1 {
+    padding: 50px;
+}
 body {
     background-color:#EEE;
     font-family:'Lato',Helvetica,Arial;
